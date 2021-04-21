@@ -1,0 +1,129 @@
+*{box-sizing: border-box;}
+.container{
+	width: 900px;
+	margin : auto;
+	height : 1400px; 
+}
+header{
+	font-size: 25px;
+	/* border:0.5px solid gray; */
+	border-bottom: 3px solid gray;
+	color : navy;
+}
+#title{
+	padding-left: 1cm;
+}
+#subtitle{border-top: 1px solid gray;
+padding-top: 5mm;
+color: navy;
+text-align: center;
+}
+nav{background-color: rgb(187, 247, 244);
+	float: left;
+	width: 180px;
+	height: 1000px;
+	font-size: 13px;
+	border-right: 2px solid gray;
+}
+a{
+	text-decoration:none;
+}
+.team{
+color: black;
+}
+
+#hof{font-size: 18px;
+	text-align: center;
+padding-right: none;
+color: goldenrod;
+display: inline-block;
+transition:transform 1s;}
+#hof:active{transform:translateY(100px);}
+
+article{
+	float: left ;
+	width: 715px;
+	height: 850px;
+}
+#LCKimg1{
+	display: block;
+	margin: 0px auto;
+	width: 8cm;
+	height: 6cm;
+	padding:15px;
+}
+#Mift{
+	width:715px;
+	border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
+	height: 4cm;
+	text-align: center;
+	padding-top: 5mm;
+	
+}
+
+.LC{
+	border-bottom: 0.5px solid gray;
+	text-align: center;
+	height: 0.75cm;
+	padding: 1mm;
+	font-size: 16px;
+}
+
+.ift{ width: 358px; 
+	float : left;
+	border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
+	border-right: 0.5px solid gray ;
+	height: 5cm;
+	text-align: left;
+}
+.teamname{width: 357px;
+	float: right;
+	border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
+	height: 5cm;
+	text-align: left;
+
+}
+
+
+.loster{
+	width: 358px;
+	border-bottom:0.5px solid gray;
+	border-right: 0.5px solid gray;
+	float: left;
+	height: 4.7cm;
+	margin: none;
+}
+.career{
+	width: 357px;
+	border-bottom: 0.5px solid gray;
+	float: right;
+	height: 4.7cm;
+	margin: none;
+}
+#text{
+	float: left;
+	padding-left: 15px;
+	font-size: 14px;
+}
+#plusi{
+	padding-left: 3mm;
+	padding-top: 3mm;
+	font-size: 14px;
+	color: powderblue;
+}
+#Videotitle{
+	text-align: center;
+}
+iframe{
+	display: block;
+	margin: 0px auto;
+}
+footer{
+	height: 150px;
+}
+
+
+
